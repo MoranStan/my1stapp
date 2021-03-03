@@ -1,19 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div >
+        <navi></navi>
+    </div>
+    
+  
+    <router-view></router-view>
+    <div >
+      <footeri></footeri>
+    </div>
   </div>
+
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+ import navi from '@/components/navi'
+ import footeri from '@/components/footeri'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+
+  export default {
+    name: 'App',
+    components: {
+        'navi': navi,
+        'footeri': footeri
+ 
+
+    }
+    
   }
-}
+
 </script>
 
 <style>
