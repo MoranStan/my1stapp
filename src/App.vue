@@ -7,7 +7,7 @@
   
     <router-view></router-view>
     <div >
-      <footeri></footeri>
+      <footeri-component></footeri-component>
     </div>
   </div>
 
@@ -16,14 +16,14 @@
 
 <script>
  import navi from '@/components/navi'
- import footeri from '@/components/footeri'
+ import footeriComponent from '@/components/footeri'
 
 
   export default {
     name: 'App',
     components: {
         'navi': navi,
-        'footeri': footeri
+         footeriComponent,
  
 
     }

@@ -8,12 +8,12 @@
 
 <script>
 export default {
-  name: 'footer',
+  name: 'footeriComponent',
   
 };
 </script>
 
-<style >
+<style lang="scss">
     .footer-style {
     position: fixed;
     left: 0;

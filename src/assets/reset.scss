@@ -1,0 +1,22 @@
+@import './defaults.scss';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  background: white !important;
+  color: black;
+}
+
+
+h2, h3, h4, h5, p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
