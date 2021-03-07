@@ -1,7 +1,7 @@
 <template>
   <div id="sixth">
-    <h1>5th problem!</h1>
-    <h2>Fizz Buzz</h2>
+    <h1>6th problem!</h1>
+    <h2>Anagrams</h2>
     <b-jumbotron header="" lead="" width="70%">
       <h5 class="hColor">
         Anagrams are words or phrases that contain the same number of
@@ -15,15 +15,11 @@
           <text-field
             id="myName2"
             type="text"
-            placeholder="Your Name"
+            placeholder="Enter text"
             v-model="num"
           />
         </div>
         <div class="spacer">
-          <!-- <button @click="outputFromModel">v-model</button> 
-            <button @click="outputFromRef">ref</button>
-            <button @click="outputFromId">ID</button>
-            <button @click="checkMax">Submit</button>-->
           <v-button :onClick="checkMax">Component Submit</v-button>
         </div>
       </div>
