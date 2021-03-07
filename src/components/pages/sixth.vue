@@ -1,10 +1,11 @@
 <template>
   <div id="sixth">
-    <h1>5th problem!</h1>
-    <h2>Fizz Buzz</h2>
+    <h1>6th problem!</h1>
+    <h2>Anagrams</h2>
     <b-jumbotron header="" lead="" width="70%">
       <h5 class="hColor">
-        Anagrams are words or phrases that contain the same number of characters. Create a function that checks for this.
+        Anagrams are words or phrases that contain the same number of
+        characters. Create a function that checks for this.
       </h5>
       <h3 v-if="!textb" class="new_span"></h3>
       <h3 style="color: Tomato">{{ textb }}</h3>
@@ -12,22 +13,17 @@
         <div class="form-group">
           <div class="spacer"></div>
           <text-field
-             id="myName2"
-                     type="text"
-
-            placeholder="Your Name"
+            id="myName2"
+            type="text"
+            placeholder="Enter text"
             v-model="num"
           />
-      </div>
-          <div class="spacer">
-            <!-- <button @click="outputFromModel">v-model</button> 
-            <button @click="outputFromRef">ref</button>
-            <button @click="outputFromId">ID</button>
-            <button @click="checkMax">Submit</button>-->
-            <v-button :onClick="checkMax">Component Submit</v-button>
-          </div>
         </div>
-        
+        <div class="spacer">
+          <v-button :onClick="checkMax">Component Submit</v-button>
+        </div>
+      </div>
+
       <span style="white-space: pre"></span>
 
       <p>
@@ -43,16 +39,14 @@
 import Button from "@/components/common/button/button.vue";
 import inputfield from "@/components/common/textbox/textbox.vue";
 
-
 export default {
   components: {
     "v-button": Button,
     TextField: inputfield,
-
   },
   data() {
     return {
-      num: "",     
+      num: "",
       num2: "",
       textb: "",
     };

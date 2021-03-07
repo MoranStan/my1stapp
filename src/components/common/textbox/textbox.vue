@@ -2,7 +2,6 @@
   <input
     class="inputfield form__field"
     type="text"
-    :value="value"
     @input="$emit('input', $event.target.value)"
   />
 </template>
