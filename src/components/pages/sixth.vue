@@ -13,7 +13,7 @@
         <div class="form-group">
           <div class="spacer"></div>
           <text-field
-            id="myName2"
+            id="textin"
             type="text"
             placeholder="Enter text"
             v-model="num"
