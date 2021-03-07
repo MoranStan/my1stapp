@@ -1,24 +1,16 @@
 <template>
-  <div id="fifth">
+  <div id="sixth">
     <h1>5th problem!</h1>
     <h2>Fizz Buzz</h2>
     <b-jumbotron header="" lead="" width="70%">
       <h5 class="hColor">
-        Given a string of characters, return the character that appears the most
-        often..
+        Anagrams are words or phrases that contain the same number of characters. Create a function that checks for this.
       </h5>
       <h3 v-if="!textb" class="new_span"></h3>
       <h3 style="color: Tomato">{{ textb }}</h3>
       <div>
         <div class="form-group">
-          <input
-            type="text"
-            id="myName"
-            ref="myInput"
-            v-model="num"
-            placeholder="enter text"
-          />
-           <div class="spacer"></div>
+          <div class="spacer"></div>
           <text-field
              id="myName2"
                      type="text"
