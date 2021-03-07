@@ -6,6 +6,8 @@ import second from '@/components/pages/second'
 import third from '@/components/pages/third'
 import forth from '@/components/pages/forth'
 import fifth from '@/components/pages/fifth'
+import sixth from '@/components/pages/sixth'
+
 
 import tutorial from '@/components/tutorial'
 import addTut from '@/components/addTut'
@@ -19,6 +21,8 @@ const routes = [ {path: '/foo', component: foo },
 {path: '/third', component: third},
 {path: '/forth', component: forth},
 {path: '/fifth', component: fifth},
+{path: '/sixth', component: sixth},
+
 
 {path: '/tutorial', component: tutorial},
 {path: '/addTut', component: addTut},
