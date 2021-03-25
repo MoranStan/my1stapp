@@ -20,7 +20,7 @@
             <!-- <button @click="outputFromModel">v-model</button> 
             <button @click="outputFromRef">ref</button>
             <button @click="outputFromId">ID</button>-->
-            <button @click="palindrome">Check palindrome</button>
+            <v-button :onClick="palindrome">Submit</v-button>
         </div>
         </div>  
     </div>
@@ -36,9 +36,13 @@
 </template>
 
   <script>
+  import Button from "@/components/common/button/button.vue";
+
   export default {
 
-
+    components: {
+      "v-button": Button,
+    },
     data() {
       return {
         name: '',
