@@ -13,6 +13,8 @@
         <b-nav-item >  <router-link to="/forth">#4  </router-link></b-nav-item>
         <b-nav-item >  <router-link to="/fifth">#5 </router-link></b-nav-item>
         <b-nav-item >  <router-link to="/sixth">#6 </router-link></b-nav-item>
+        <b-nav-item >  <router-link to="/seventh">#7 </router-link></b-nav-item>
+        <b-nav-item >  <router-link to="/eight">#8 </router-link></b-nav-item>
 
       </b-navbar-nav>
 

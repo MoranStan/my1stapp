@@ -7,6 +7,8 @@ import third from '@/components/pages/third'
 import forth from '@/components/pages/forth'
 import fifth from '@/components/pages/fifth'
 import sixth from '@/components/pages/sixth'
+import seventh from '@/components/pages/seventh'
+import eigth from '@/components/pages/eigth'
 
 import tutorial from '@/components/tutorial'
 import addTut from '@/components/addTut'
@@ -21,6 +23,8 @@ const routes = [ {path: '/foo', component: foo },
 {path: '/forth', component: forth},
 {path: '/fifth', component: fifth},
 {path: '/sixth', component: sixth},
+{path: '/seventh', component: seventh},
+{ path: '/eigth', component: eigth },
 
 {path: '/tutorial', component: tutorial},
 {path: '/addTut', component: addTut},
